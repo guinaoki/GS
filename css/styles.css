@@ -1,3 +1,12 @@
+@import './styleagricola.css';
+@import './styleagricultura.css';
+@import './stylecultivo.css';
+@import './styledoador.css';
+@import './stylelocalizacao.css';
+@import './stylepdoacao.css';
+@import './stylepdoacao.css';
+
+
 /* Estilos da pagina index */
 
 body {
