@@ -1,11 +1,14 @@
-@import './styleagricola.css';
-@import './styleagricultura.css';
-@import './stylecultivo.css';
-@import './styledoador.css';
-@import './styleindex.css';
-@import './styleindexpdoacao.css';
-@import './stylelocalizacao.css';
-@import './login.css';
+@import url("./styleagricola.css");
+
+
+
+@import url("./styleagricultura.css");
+@import url("./stylecultivo.css");
+@import url("./styledoador.css");
+@import url("./styleindex.css");
+@import url("./styleindexpdoacao.css");
+@import url("./stylelocalizacao.css");
+@import url("./login.css");
 
 *{
     margin:0;
