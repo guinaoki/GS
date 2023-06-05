@@ -44,7 +44,7 @@
     color:#ffffff
 }
 
-.cabecalho .links_login .botao_entrar{
+.cabecalho .links_login .botao_entrar a{
     text-decoration: none;
     border-radius: 10px;
 }
@@ -52,10 +52,10 @@
 .cabecalho .links_menu a{
     text-decoration: none;
     color: #000000;
-    font-size: 13px;
+    font-size: 15px;
     font-weight: 800;
     text-align: center;
-    padding: 3%;
+    padding: 0;
 }
 
 .cabecalho a:hover {
