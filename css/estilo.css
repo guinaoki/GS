@@ -1,6 +1,7 @@
 @import url("./cabecalho.css");
-@import url("./conteudo.css");
+@import url("./login.css");
 @import url("./rodape.css");
+@import url("./cadrastro.css");
 
 *{
     margin:0;
