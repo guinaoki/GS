@@ -5,20 +5,55 @@
     padding: 10px;
 }
 
-.rodape img {
-    width: 8%;
-    max-width: 16%;
+.rodape .img-cs {
+    width: 60px;
+    height: auto;
     margin-right: 10px;
 }
 
 .rodape p {
     margin: 0;
     flex-grow: 1;
+    font-size: 14px;
 }
 
-.cacafome,
-.crafth,
-.micros {
-    width: 8%;
-    max-width: 16%;
+.link-imagem {
+    display: inline-flex;
+    text-decoration: none;
+    width: 120px;
+    height: 40px;
+    margin-right: 0px; /* Espaço entre os elementos */
+}
+
+.link-imagem .link-imagem-logo {
+    width: 100%;
+    height: auto;
+    padding: 0 5px;
+}
+
+.link-imagem-kh {
+    display: inline-flex;
+    text-decoration: none;
+    width: 140px;
+    height: 40px;
+    margin-right: 25px; /* Espaço entre os elementos */
+}
+
+.link-imagem .link-imagem-logo-kh {
+    width: 100%;
+    height: auto;
+    padding: 0 5px;
+}
+
+.link-imagem-mi {
+    display: inline-flex;
+    text-decoration: none;
+    width: 140px;
+    height: 50px;
+}
+
+.link-imagem .link-imagem-logo-mi {
+    width: 100%;
+    height: auto;
+    padding: 0 5px;
 }
