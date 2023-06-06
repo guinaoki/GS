@@ -1,0 +1,25 @@
+.rodape {
+    display: flex;
+    align-items: center;
+    background-color: #F4F4F4;
+    padding: 10px;
+}
+
+.rodape img {
+    width: 8%;
+    max-width: 16%;
+    margin-right: 10px;
+}
+
+.rodape p {
+    margin: 0;
+    flex-grow: 1;
+}
+
+.cacafome,
+.crafth,
+.micros {
+    width: 8%;
+    max-width: 16%;
+}
+
