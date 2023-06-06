@@ -1,19 +1,18 @@
-/* estilo.css */
-
 .cabecalho {
     display: flex;
     align-items: center;
-    background-color: #ffffff;
-    padding: 10px;
+    background-color: #F3F3F3;
+    padding: 5px;
 }
 
-.cabecalho img {
-    width: 8%;
-    max-width: 16%;
+.cabecalho .logo_sc{
+    width: 16%;
+    max-width: 20%;
+    padding: 0;
 }
 
 .cabecalho nav {
-    margin-left: 20px;
+    margin-left: 10px;
 }
 
 .cabecalho .links_menu,
@@ -36,6 +35,7 @@
 .cabecalho .links_login .botao_cadastro{
     border-radius: 10px;
     background-color: #202986;
+    padding: 10px;
 }
 
 .cabecalho .links_login .botao_cadastro a{
@@ -44,9 +44,15 @@
     color:#ffffff
 }
 
+.cabecalho .links_login .botao_entrar{
+    border-radius: 10px;
+    padding: 10px;
+}
+
 .cabecalho .links_login .botao_entrar a{
     text-decoration: none;
     border-radius: 10px;
+    color: #000000;
 }
 
 .cabecalho .links_menu a{
@@ -58,50 +64,13 @@
     padding: 0;
 }
 
-.cabecalho a:hover {
-    border-radius: 5px;
+.cabecalho .links_menu a:hover {
+    border-radius: 6px;
     color: #ffffff;
     background-color: #2e2e2e;
+    padding: 5px;
 }
 
-
-
-
-
-
-/* .cabecalho{
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    align-items: center;
-    background-color: #ffffff;
+.cabecalho .links_login a:hover {
+    color: #0d98ba;
 }
-
-.cabecalho img{
-    width: 8%;
-    max-width: 16%;
-    display: block;
-}
-
-.cabecalho nav{
-    display: flex;
-    justify-content: space-around;
-    width: 80%;
-    height: 100%;
-    flex-wrap: wrap;
-}
-
-.cabecalho a{
-    text-decoration: none;
-    color: #000000;
-    font-size: 12px;
-    font-weight: 500;
-    text-align: center;
-    padding: 3% 3%;
-}
-
-.cabecalho a:hover{
-    border-radius: 10px;
-    color: #ffffff;
-    background-color: #2e2e2e;
-} */
