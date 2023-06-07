@@ -5,6 +5,7 @@
 @import url("./conteudo-index.css");
 @import url("./conteudo-agric.css");
 @import url("./conteudo-ia.css");
+@import url("./cont-cultivoefici");
 
 *{
     margin:0;
