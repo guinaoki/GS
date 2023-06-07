@@ -3,26 +3,27 @@
     align-items: center;
     background-color: #F4F4F4;
     padding: 10px;
+    margin: 0;
 }
 
 .rodape .img-cs {
-    width: 60px;
+    width: 6%;
     height: auto;
-    margin-right: 10px;
+    margin-right: 4%;
 }
 
 .rodape p {
     margin: 0;
     flex-grow: 1;
-    font-size: 14px;
+    font-size: 75%;
 }
 
 .link-imagem {
     display: inline-flex;
     text-decoration: none;
-    width: 120px;
-    height: 40px;
-    margin-right: 0px; /* Espaço entre os elementos */
+    width: 8%;
+    height: 5%;
+    margin-right: 7px; /* Espaço entre os elementos */
 }
 
 .link-imagem .link-imagem-logo {

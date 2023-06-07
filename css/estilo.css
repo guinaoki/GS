@@ -2,6 +2,7 @@
 @import url("./login.css");
 @import url("./rodape.css");
 @import url("./cadrastro.css");
+@import url("./conteudo-index.css");
 
 *{
     margin:0;
