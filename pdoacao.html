@@ -5,113 +5,60 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="./css/estilo.css">
+    <title>Precisando de Doação</title>
 
+    <script src="./js/precisa-doa.js" defer></script>
 </head>
 
 <body>
-  <main>
-    <header>
-      <h1>Safe Company</h1>
-    </header>
+  <header class="cabecalho">
+    <a href="index.html" class="link-imagem">
+        <img src="./img/logo-safeCompany.png" alt="Logo safe company">
+    </a>
 
     <nav>
-      <ul>
-        <li><a href="agricultura.html">Agricultura Responsável</a></li>
-        <li><a href="agricola.html">IA Agrícola</a></li>
-        <li><a href="cultivos.html">Cultivos eficientes</a></li>
-        <li><a href="doador.html">Inscrição do Doador</a></li>
-        <li><a href="pdoacao.html">Precisando de Doação</a></li>
-    </ul>
+        <ul class="links_menu">
+            <li><a href="agricultura.html">Agricultura Responsável</a></li>
+            <li><a href="agricola.html">IA Agrícola</a></li>
+            <li><a href="cultivos.html">Cultivos eficientes</a></li>
+            <li><a href="doador.html">Inscrição do Doador</a></li>
+            <li><a href="pdoacao.html">Precisando de Doação</a></li>
+        </ul>
     </nav>
-  </main>
-</body>
 
-<main>
-  <header>
+    <ul class="links_login">
+        <li class="botao_entrar"><a href="login.html">ENTRAR</a></li>
+        <li class="botao_cadastro"><a href="cadastro.html">CADASTRAR</a></li>
+    </ul>
+
+  </header> 
+
+  <div id="precisa-doacao">
     <h1>Precisando de Doação?</h1>
-  </header>
-    <body>
-    
-<head>
-  <title>Solicitação de Alimentos - Página de Ajuda</title>
-</head>
-<body>
-  <h1>Solicitação de Alimentos - Página de Ajuda</h1>
-  <p>Bem-vindo à nossa página de solicitação de alimentos! Estamos aqui para ajudar e oferecer suporte àqueles que estão passando por dificuldades alimentares. Por favor, preencha o formulário abaixo para solicitar alimentos e permita-nos oferecer uma mão amiga.</p>
 
-    <form>
-      <h2>Informações Pessoais:</h2>
-      <label for="nome">Nome completo:</label>
-      <input type="text" id="nome" required><br><br>
+    <main>
+      <h1>Cadastro de Necessidade de Alimentos</h1>
+      <form id="form-precisa">
+        <label for="nome">Nome:</label>
+        <input type="text" id="nome" name="nome" required>
+          
+        <label for="email">E-mail:</label>
+        <input type="email" id="email" name="email" required>
+          
+        <label for="endereco">Endereço:</label>
+        <input type="text" id="endereco" name="endereco" required>
+          
+        <label for="necessidade">Descrição da Necessidade:</label>
+        <textarea id="necessidade" name="necessidade" rows="5" required></textarea>
+          
+        <input type="submit" value="Cadastrar">
+        </form>
+    </main>
 
-      <label for="email">Endereço de e-mail:</label>
-      <input type="email" id="email" required><br><br>
+    <iframe  scrolling="no" src="rodape.html" width="100%" frameBorder="0"></iframe>
 
-      <label for="telefone">Número de telefone:</label>
-      <input type="tel" id="telefone" required><br><br>
+  </div>
 
-      <label for="endereco">Endereço completo:</label>
-      <input type="text" id="endereco" required><br><br>
-
-      <h2>Situação Atual:</h2>
-      <label for="situacao">Descreva brevemente sua situação atual e por que você está precisando de alimentos:</label>
-      <textarea id="situacao" required></textarea><br><br>
-
-      <h2>Informações sobre a Família:</h2>
-      <label for="familia">Número de pessoas na família:</label>
-      <input type="number" id="familia" required><br><br>
-
-      <label for="idades">Idades das pessoas na família:</label>
-      <input type="text" id="idades"><br><br>
-
-      <label for="restricoes">Restrições alimentares na família:</label>
-      <input type="text" id="restricoes"><br><br>
-
-      <h2>Preferências Alimentares:</h2>
-      <label for="preferencias">Preferência por alimentos não perecíveis, frutas, legumes, carne, produtos lácteos, etc.:</label>
-      <input type="text" id="preferencias"><br><br>
-
-      <h2>Disponibilidade para Retirada:</h2>
-      <label for="retirada">Possibilidade de retirar os alimentos?</label>
-      <select id="retirada" required>
-        <option value="sim">Sim</option>
-        <option value="nao">Não</option>
-      </select><br><br>
-
-      <label for="local">Local de retirada mais próximo:</label>
-      <input type="text" id="local"><br><br>
-
-      <h2>Informações Adicionais:</h2>
-      <label for="informacoes">Alguma informação adicional que você gostaria de compartilhar ou solicitar?</label>
-      <textarea id="informacoes"></textarea><br><br>
-
-      <h2>Política de Privacidade:</h2>
-      <label for="politica">Concordo em fornecer minhas informações pessoais apenas para fins de atender à solicitação de alimentos e para entrar em contato comigo. Entendo que minhas informações não serão compartilhadas com terceiros sem minha autorização.</label>
-      <input type="checkbox" id="politica" required><br><br>
-
-      <h2>Termos e Condições:</h2>
-      <label for="termos">Confirmo que as informações fornecidas são verdadeiras e precisas.</label>
-      <input type="checkbox" id="termos" required><br><br>
-
-      <h2>Confirmação de Solicitação:</h2>
-      <label for="confirmacao">Desejo receber uma confirmação da minha solicitação por e-mail.</label>
-      <input type="checkbox" id="confirmacao"><br><br>
-
-      <h2>Contato Futuro:</h2>
-      <label for="contato">Desejo receber informações sobre futuros programas de assistência e iniciativas de ajuda.</label>
-      <input type="checkbox" id="contato"><br><br>
-
-      <input type="submit" value="Enviar Solicitação">
-    </form>
-
-    <p>Agradecemos por confiar em nossa organização. Faremos o possível para atender às suas necessidades alimentares. Entraremos em contato em breve para discutir os detalhes da entrega ou retirada dos alimentos. Mantenha-se forte e saiba que estamos aqui para ajudar.</p>
-    </body>
-</main>
-
-<body>
-    <footer>
-      <p>RM:99533 - Allesson Augusto RM:552178 - Cauã Mongs RM:551377 - Erik Teixeira RM:551456 - Guilherme Naoki RM:98912 - Leonardo Gonçalves RM:98912</p>
-    </footer>
-    </html>
 </body>
+</html>

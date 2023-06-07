@@ -1,0 +1,130 @@
+.cabecalho {
+    display: flex;
+    align-items: center;
+    background-color: #F3F3F3;
+    padding: 10px;
+}
+
+.link-imagem {
+    display: flex;
+    text-decoration: none;
+    width: 50px;
+    height: 60px;
+}
+  
+.link-imagem img {
+    width: 50%;
+    height: auto;
+    padding: 0;
+}
+
+.cabecalho nav {
+    margin-left: 10px;
+}
+
+.cabecalho .links_menu,
+.cabecalho .links_login {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.cabecalho .links_menu li,
+.cabecalho .links_login li {
+    margin-right: 10px;
+}
+
+.cabecalho .links_login {
+    margin-left: auto;
+}
+
+.cabecalho .links_login .botao_cadastro{
+    border-radius: 10px;
+    background-color: #202986;
+    padding: 10px;
+}
+
+.cabecalho .links_login .botao_cadastro a{
+    text-decoration: none;
+    border-radius: 10px;
+    color:#ffffff;
+    margin-left: 0;
+}
+
+.cabecalho .links_login .botao_entrar{
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.cabecalho .links_login .botao_entrar a{
+    text-decoration: none;
+    border-radius: 10px;
+    color: #000000;
+}
+
+.cabecalho .links_menu a{
+    text-decoration: none;
+    color: #000000;
+    font-size: 15px;
+    font-weight: 800;
+    text-align: center;
+    padding: 0;
+}
+
+.cabecalho .links_menu a:hover {
+    border-radius: 6px;
+    color: #ffffff;
+    background-color: #2e2e2e;
+    padding: 5px;
+}
+
+.cabecalho .links_login a:hover {
+    color: #0d98ba;
+}
+
+
+/* Restante do seu CSS atual */
+
+/* Estilos para telas menores que 600px */
+@media only screen and (max-width: 600px) {
+    .cabecalho {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .link-imagem {
+        margin-bottom: 10px;
+    }
+
+    .cabecalho nav {
+        margin-left: 0;
+        margin-top: 10px;
+    }
+
+    .cabecalho .links_menu,
+    .cabecalho .links_login {
+        flex-direction: column;
+    }
+
+    .cabecalho .links_menu li,
+    .cabecalho .links_login li {
+        margin-right: 0;
+        margin-bottom: 5px;
+    }
+
+    .cabecalho .links_login {
+        margin-left: 0;
+    }
+
+    .cabecalho .links_login .botao_cadastro a,
+    .cabecalho .links_login .botao_entrar a {
+        padding: 5px;
+        font-size: 12px;
+    }
+
+    .cabecalho .links_menu a {
+        font-size: 12px;
+        padding: 5px;
+    }
+}

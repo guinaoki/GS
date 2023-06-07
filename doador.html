@@ -5,112 +5,58 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="./css/estilo.css">
+    <title>Incrição da doação</title>
 
+    <script src="./js/incri-doa.js" defer></script>
 </head>
 
 <body>
-  <main>
-  <header>
-    <h1>Safe Company</h1>
+  <header class="cabecalho">
+    <a href="index.html" class="link-imagem">
+        <img src="./img/logo-safeCompany.png" alt="Logo safe company">
+    </a>
+
+    <nav>
+        <ul class="links_menu">
+            <li><a href="agricultura.html">Agricultura Responsável</a></li>
+            <li><a href="agricola.html">IA Agrícola</a></li>
+            <li><a href="cultivos.html">Cultivos eficientes</a></li>
+            <li><a href="doador.html">Inscrição do Doador</a></li>
+            <li><a href="pdoacao.html">Precisando de Doação</a></li>
+        </ul>
+    </nav>
+
+    <ul class="links_login">
+        <li class="botao_entrar"><a href="login.html">ENTRAR</a></li>
+        <li class="botao_cadastro"><a href="cadastro.html">CADASTRAR</a></li>
+    </ul>
   </header>
+  <div id="inscricacao-doa">
 
-  <nav>
-    <ul>
-      <li><a href="agricultura.html">Agricultura Responsável</a></li>
-      <li><a href="agricola.html">IA Agrícola</a></li>
-      <li><a href="cultivos.html">Cultivos eficientes</a></li>
-      <li><a href="doador.html">Inscrição do Doador</a></li>
-      <li><a href="pdoacao.html">Precisando de Doação</a></li>
-  </ul>
-  </nav>
-</main>
+    <h1>Incrição da doação!</h1>
+
+    <main>
+      <h1>Cadastro de Doação de Alimentos</h1>
+      <form id="inscri-doa">
+        <label for="nome">Nome:</label>
+        <input type="text" id="nome" name="nome" required>
+          
+        <label for="email">E-mail:</label>
+        <input type="email" id="email" name="email" required>
+          
+        <label for="endereco">Endereço:</label>
+        <input type="text" id="endereco" name="endereco" required>
+          
+        <label for="alimento">Alimento a ser doado:</label>
+        <input type="text" id="alimento" name="alimento" required>
+          
+        <input type="submit" value="Cadastrar">
+      </form>
+    </main>
+
+    <iframe  scrolling="no" src="rodape.html" width="100%" frameBorder="0"></iframe>
+
+  </div>
 </body>
-
-<body>
-  <main>
-    <header>
-      <h1>Incrição da doação!</h1>
-  </header>
-    <h1>Doação de Alimentos</h1>
-    <p>Bem-vindo à nossa página de doações de alimentos! Agradecemos seu interesse em contribuir para o combate à fome e ajudar aqueles que mais precisam. Preencha o formulário abaixo para doar alimentos e fazer a diferença na vida das pessoas.</p>
-
-    <h2>Informações do Doador:</h2>
-    <label for="nome">Nome completo:</label>
-    <input type="text" id="nome" required><br><br>
-
-    <label for="email">Endereço de e-mail:</label>
-    <input type="email" id="email" required><br><br>
-
-    <label for="telefone">Número de telefone:</label>
-    <input type="tel" id="telefone" required><br><br>
-
-    <label for="endereco">Endereço completo:</label>
-    <input type="text" id="endereco" required><br><br>
-
-    <h2>Informações da Doação:</h2>
-    <label for="tipo-alimento">Tipo de Alimento:</label>
-    <input type="text" id="tipo-alimento" required><br><br>
-
-    <label for="quantidade-alimento">Quantidade de Alimento:</label>
-    <input type="text" id="quantidade-alimento" required><br><br>
-
-    <label for="validade">Data de Validade:</label>
-    <input type="text" id="validade"><br><br>
-
-    <label for="restricoes">Restrições Alimentares:</label>
-    <input type="text" id="restricoes"><br><br>
-
-    <label for="embalagem">Embalagem:</label>
-    <input type="text" id="embalagem"><br><br>
-
-    <label for="armazenamento">Condições de Armazenamento:</label>
-    <input type="text" id="armazenamento"><br><br>
-
-    <h2>Informações de Entrega:</h2>
-    <label for="entrega">Prefere entregar ou solicitar retirada?</label>
-    <select id="entrega" required>
-      <option value="entrega">Entrega</option>
-      <option value="retirada">Retirada</option>
-    </select><br><br>
-
-    <label for="endereco-entrega">Endereço de entrega (se aplicável):</label>
-    <input type="text" id="endereco-entrega"><br><br>
-
-    <label for="data-hora">Data e hora preferencial para entrega/retirada:</label>
-    <input type="text" id="data-hora"><br><br>
-
-    <label for="observacoes">Observações adicionais:</label>
-    <textarea id="observacoes"></textarea><br><br>
-
-    <h2>Política de Privacidade:</h2>
-    <label for="politica">Concordo em compartilhar minhas informações pessoais apenas para fins de organização desta doação e garantir que a mesma seja entregue corretamente. Estou ciente de que minhas informações não serão compartilhadas com terceiros sem minha autorização.</label>
-    <input type="checkbox" id="politica" required><br><br>
-
-    <h2>Termos e Condições:</h2>
-    <label for="termos">Confirmo que os alimentos doados estão em boas condições, dentro da validade e próprios para o consumo.</label>
-    <input type="checkbox" id="termos" required><br><br>
-
-    <h2>Responsabilidade:</h2>
-    <label for="responsabilidade">Compreendo que a organização não assume responsabilidade por danos ou problemas relacionados aos alimentos doados.</label>
-    <input type="checkbox" id="responsabilidade" required><br><br>
-
-    <h2>Confirmação de Doação:</h2>
-    <label for="confirmacao">Desejo receber uma confirmação da minha doação por e-mail.</label>
-    <input type="checkbox" id="confirmacao"><br><br>
-
-    <h2>Contato Futuro:</h2>
-    <label for="contato-futuro">Desejo receber informações sobre futuras campanhas de doação e oportunidades de voluntariado.</label>
-    <input type="checkbox" id="contato-futuro"><br><br>
-
-    <input type="submit" value="Enviar Doação">
-    <p>Obrigado por sua generosidade e por ajudar a combater a fome! Após preencher o formulário, entraremos em contato para confirmar os detalhes da sua doação e combinar os próximos passos. Sua contribuição fará a diferença na vida de muitas pessoas.</p>
-  </main>
-</body>
-    
-<body>
-    <footer>
-      <p>RM:99533 - Allesson Augusto RM:552178 - Cauã Mongs RM:551377 - Erik Teixeira RM:551456 - Guilherme Naoki RM:98912 - Leonardo Gonçalves RM:98912</p>
-    </footer>
-    </html>
-</body>
+</html>

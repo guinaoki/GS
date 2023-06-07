@@ -1,0 +1,40 @@
+#cont-agric {
+    margin: 20px;
+}
+
+#cont-agric h1 {
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 30px;
+    margin-top: 3%;
+}
+
+#cont-agric section {
+    margin-bottom: 50px;
+}
+
+#cont-agric h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+#cont-agric p {
+    margin-bottom: 20px;
+}
+
+#cont-agric ul,
+#cont-agric ol {
+    margin-left: 20px;
+    margin-bottom: 10px;
+    padding: 1%;
+}
+
+#cont-agric img {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    width: 30%;
+    max-width: 100%;
+    height: auto;
+    border-radius: 6%;
+}
