@@ -4,8 +4,7 @@
 @import url("./cadrastro.css");
 @import url("./conteudo-index.css");
 @import url("./conteudo-agric.css");
-@import url("./conteudo-ia.css");
-@import url("./cont-cultivoefici");
+@import url("./conteudo-ia-efic.css");
 
 *{
     margin:0;
