@@ -3,6 +3,8 @@
 @import url("./rodape.css");
 @import url("./cadrastro.css");
 @import url("./conteudo-index.css");
+@import url("./conteudo-agric.css");
+@import url("./conteudo-ia.css");
 
 *{
     margin:0;
