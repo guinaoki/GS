@@ -59,9 +59,10 @@
 .login-button button {
     border: none;
     background-color: #6c63ff;
-    padding: 0.4rem 1rem;
+    padding: 0.1rem 2.5rem;
     border-radius: 5px;
     cursor: pointer;
+    align-items: center;
 }
 
 .login-button button:hover {
@@ -180,7 +181,7 @@
     }
 }
 
-@media screen and (max-width: 1064px) {
+@media screen and (max-width: 1281px) {
     .container{
         width: 90%;
         height: auto;
