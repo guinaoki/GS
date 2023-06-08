@@ -1,0 +1,22 @@
+@media(max-width:600px){
+     
+    .cabecalho .links_menu a{
+        font-size: 17px;
+        padding: 0;
+    }
+
+    
+    .cabecalho .links_login .botao_cadastro a,
+    .cabecalho .links_login .botao_entrar a {
+        font-size: 20px;
+    }
+
+    .cabecalho .links_menu a {
+        font-size: 20px;
+        padding: 5px;
+    }
+
+}
+
+
+    

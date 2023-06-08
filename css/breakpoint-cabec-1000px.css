@@ -1,0 +1,34 @@
+@media(max-width:1000px){
+     
+    .cabecalho{
+        flex-direction: column;
+    }
+
+    .cabecalho .links_menu a{
+        font-size: 16px;
+        padding: 0;
+    }
+
+    .cabecalho .links_login {
+        margin: 0;
+        margin-top: 5px;
+    }
+
+    .cabecalho nav{
+        flex-wrap: nowrap;
+    }
+
+    .cabecalho a{
+        display: flex;
+        font-size: 20px;
+        padding: 5% 0;
+    }
+
+    .cabecalho li {
+        font-size: 2rem;
+    }
+
+    .cabecalho img{
+        width: 5rem;
+    }
+}

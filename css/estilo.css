@@ -7,6 +7,8 @@
 @import url("./conteudo-ia-efic.css");
 @import url("./inscricao-doa.css");
 @import url("./precisa-doacao.css");
+@import url("./breakpoint-cabec-1000px.css");
+@import url("./breakpoint-cabec-600px.css");
 
 *{
     margin:0;
